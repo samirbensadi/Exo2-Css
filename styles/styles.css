@@ -1,3 +1,177 @@
-/* ****************************************
-              VOTRE CSS
-******************************************/
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* GENERAL*/
+
+
+body, html
+{
+	height: 100%;
+}
+
+
+body 
+{
+	font-family: 'Montserrat',Verdana, sans-serif;
+}
+
+
+main
+{
+	position: relative;
+	min-height: 100%;
+}
+
+/* Header */
+
+header
+{
+	
+	background-color: white;
+	border-bottom: 8px solid #E01045;
+	text-align: center;
+	height: 150px;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	
+
+}
+
+
+.logo
+{
+	height: 90px;
+	width:90px;
+	margin:8px;
+}
+
+nav
+{
+	font-size: 15px;
+	color: #77787A;
+	margin: 4px;
+
+}
+
+nav ul li
+{
+	display: inline;
+}
+
+/* bannière */
+
+.titre
+{
+
+	background-image: url(../img/bg.jpg);
+	height: 350px;
+	width: 100%;
+	text-align: center;
+	margin-top: 140px;
+
+	
+	
+
+}
+
+h1
+{
+	display: inline-block;
+	padding: 20px;
+	border: 2px solid white;
+	margin-top: 125px;
+	width:50%;
+	color: white;
+
+}
+
+
+
+/* COPRS*/
+
+.content
+{
+	height: 600px;
+	text-align: center;
+	
+}
+
+
+
+.cubes /* each cubes */
+{
+	text-align: center;
+	background-color: #EDEDED;
+	display: inline-block;
+	margin:20px;
+	padding: 30px;
+	width: 20%;
+
+}
+
+.cubes p
+{
+	font-size: 15px;
+	color: #77787A;
+	text-align: justify-all;
+}
+
+h3
+{
+	margin-top: 40px;
+	margin-bottom: 70px;
+	text-align: center;
+	color: #E01045;
+	align-items: center;
+}
+
+.computer
+{
+	height:80px; 
+	width:80px;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	border-bottom: 8px solid #E01045;
+}
+
+
+
+/*Footer*/
+
+footer
+{
+	height: 300px;
+	background-color: #272727;
+	text-align: center;
+
+}
+
+
+img
+{
+	height: 170px;
+	width: 170px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#mde
+{
+	width: 270px;
+}
+
+footer p
+{
+	color: white;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+
+
+
